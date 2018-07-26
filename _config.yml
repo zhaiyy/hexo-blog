@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zhaiyingying blog
-subtitle:
+title: 盈盈的博客
+subtitle: 我是盈盈，但没有令狐冲；我不是圣姑，我只是代码搬运工
 description:
-keywords:
+keywords: 前端 javascript html vue
 author: zhai yingying
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.zhaiyingying.com
+url: http://blog.zhaiyingying.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
