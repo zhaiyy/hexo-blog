@@ -9,13 +9,16 @@ toc: false
 comments: false
 permalink: /404
 ```
+注意：404 页面在本地 http://localhost:4000/ 下访问不生效
 ## 404 页面引入丢失儿童
 
 添加代码
 
 `<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" homepagename='返回主页' homepageurl="/" charset="utf-8"></script>
 `
+
 homepagename: 自定义返回主页 文字
+
 homepageurl：自定义返回的地址
 
 ## 每次构建，都需要重新填写 Custom domain
