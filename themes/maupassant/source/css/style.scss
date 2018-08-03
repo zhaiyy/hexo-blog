@@ -105,6 +105,9 @@ div {
         }
     }
 }
+#sidebar-box {
+    position: relative;
+}
 
 #sidebar {
     border-left: 1px solid #ddd;
@@ -179,7 +182,10 @@ div {
         }
     }
 }
-
+#sidebar[data-fixed="fixed"]{
+    position: fixed;
+    top:0px;
+}
 /* title for search result or tagged posts*/
 .label-title {
     margin-top: 1.1em;
