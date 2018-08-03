@@ -24,3 +24,6 @@ homepageurl：自定义返回的地址
 ## 每次构建，都需要重新填写 Custom domain
 在 source 文件夹下新建 名为 CNAME 的文件
 内容为自己需要的域名，但是不用填写http://
+
+## 文章不显示文章目录，转载权限等配置
+看过代码，发现所以的配置都写着post.pug文件中，但实际生效的是page.pug文件，所以把相应的代码放到page.pug即可

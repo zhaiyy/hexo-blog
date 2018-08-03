@@ -6,7 +6,7 @@
 title: 盈盈的博客
 subtitle: 我是盈盈，但没有令狐冲；我不是圣姑，我只是代码搬运工
 description:
-keywords: 前端 javascript html vue
+keywords: 前端 javascript html vue 盈盈 yingying 翟盈盈
 author: zhai yingying
 language: zh-CN
 timezone:
@@ -81,3 +81,12 @@ deploy:
   type: git
   repo: https://github.com/zhaiyy/zhaiyy.github.io.git
   branch: master
+
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20

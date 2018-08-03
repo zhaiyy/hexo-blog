@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: 2016-05-01
+date: 2016-05-01 10:09:00
 layout: page
 description: hexo 基本语法
 toc: true
